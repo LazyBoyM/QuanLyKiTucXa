@@ -1,0 +1,17 @@
+{
+    "name": "dormflow/dormitory-management",
+    "description": "Modern Dormitory Management System",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "phpmailer/phpmailer": "^6.8",
+        "mpdf/mpdf": "^8.1",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
